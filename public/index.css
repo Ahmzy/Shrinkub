@@ -1,0 +1,158 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+  background-color: rgb(0, 0, 0);
+}
+
+.centerLink {
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerLink:focus {
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  border: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 17px;
+  outline: 0px;
+  text-align: center;
+}
+
+
+.input {
+  height: 50px;
+  width: 450px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: #2C2C2C;
+  border: 0px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.input::placeholder {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  /* Position at the vertical center */
+  transform: translateY(-50%);
+  opacity: 0.6;
+}
+
+.input:focus {
+  width: 450px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  outline: 0px;
+  border: 0px;
+}
+
+.input:hover {
+  height: 50px;
+  width: 450px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: #202020;
+  border: 0px;
+}
+
+.button {
+  height: 52px;
+  width: 160px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #3C7EFF;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button:hover {
+  height: 52px;
+  width: 160px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #135bec;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  font-family: Arial;
+  visibility: hidden;
+  width: 120px;
+  color: #3C7EFF;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-weight: bold;
+  font-size: 12px;
+
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Title {
+  color: white;
+  font-weight: 900;
+  font-size: 84px;
+  font-family: Arial;
+}
+
+.TitlePadding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: white;
+  font-weight: semi-bold;
+  font-size: 28px;
+  font-family: Arial;
+}
